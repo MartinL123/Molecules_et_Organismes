@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Card</title>
+
+        <!-- Link for bootstrap -->
+        <link rel="stylesheet" href="styles/bootstrap.css" class="css">
+
+        <!-- Custom stylesheet -->
+        <link rel="stylesheet" href="styles/custom.css" class="css">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    </head>
+
+    <body style="background-color: beige;">
+
+        <div class="container">
+        <div class="row mt-4">
+            <div class="col">
+            <small><a href="index.html">< Back to Menu</a></small>
+            <h1>Cards page</h1><br/ >
+            </div>
+        </div>
+        </div>
+
+
+        <!-- EVENT CARDS -->
+        <div class="container">
+        <h2>Event cards</h2>
+        <div class="row"> 
+            <div class="col">
+            <div class="card">
+                <img style="height: 200px; width: 100%; display: block;" src="img/wine.jpg" alt="Card image"/>
+
+                <div class="card-body">
+                <h4 class="card-title">Wanna get drunk ?</h4>
+                <h6 class="card-subtitle mb-2 text-muted">21/08/2020 - Paris</h6>
+                <p class="card-text">Venez goûter au meilleur rhum arrangés de la région Parisienne. Si vous ressortez sans vous péter la gueule, vous gagnez une bouteille.</p>
+                <a href="#" class="card-link">See event</a>
+                </div>
+            </div>
+            </div>
+
+            <div class="col">
+            <div class="card">
+                <img style="height: 200px; width: 100%; display: block;" src="img/dj.jpg" alt="Card image">
+
+                <div class="card-body">
+                <h4 class="card-title">mémé aux platines </h4>
+                <h6 class="card-subtitle mb-2 text-muted">25/08/2020 - Lyon</h6>
+                <p class="card-text">Fuck le confinement ! Mémé TropSoin à fait son dernier tatouage et veux se préter au métier de DJ. Vous n'allez pas être déçus !</p>
+                <a href="#" class="card-link">See event</a>
+                </div>
+            </div>
+            </div>
+
+            <div class="col">
+            <div class="card">
+                <img style="height: 200px; width: 100%; display: block;" src="img/cheers.jpg" alt="Card image">
+
+                <div class="card-body">
+                <h4 class="card-title">Cocktail en térasse avec les copines</h4>
+                <h6 class="card-subtitle mb-2 text-muted">23/08/2020 - Marseille</h6>
+                <p class="card-text">Pauline à rassemblée toute ses BFF pour aller prendre un verre sur le port. Tu veux y aller ?</p>
+                <a href="#" class="card-link">See event</a>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- ATTENDEE CARDS -->
+        <div class="container mt-4">
+        <h2>Attendee cards</h2>
+        <div class="row"> 
+            <div class="col">
+            <div class="my-3 p-3 bg-white rounded box-shadow">
+                <h6 class="border-bottom border-gray pb-2 mb-0">Attendees list</h6>
+                <div class="media text-muted pt-3">
+                <img class="mr-2 rounded avatar-img" src="img/fat-tow.png">
+                <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                    <strong class="d-block text-gray-dark">Gérard Depardieu</strong>
+                    From Lyon
+                </p>
+                </div>
+                <div class="media text-muted pt-3">
+                <img class="mr-2 rounded avatar-img" src="img/guy.png">
+                <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                    <strong class="d-block text-gray-dark">Mémé TropSoin</strong>
+                    From Paris
+                </p>
+                </div>
+                <div class="media text-muted pt-3">
+                <img class="mr-2 rounded avatar-img" src="img/caro.png">
+                <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                    <strong class="d-block text-gray-dark">Pauline</strong>
+                    From Marseille
+                </p>
+                </div>
+                <small class="d-block text-right mt-3">
+                <a href="#">All attendees</a>
+                </small>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- CITY CARDS -->
+        <div class="container mt-4">
+            <h2>City cards</h2>
+            <div class="row"> 
+                <div class="col">
+                <div class="card overlay-container bg-dark text-white">
+                <img class="card-img" src="img/lyon.jpg" alt="Card image">
+                <div class="card-img-overlay">
+                    <div class="overlay-shadow"></div>
+                    <h2 class="card-title overlay-text">LYON</h2>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card overlay-container bg-dark text-white">
+                <img class="card-img h200" src="img/paris.jpg" alt="Card image">
+                <div class="card-img-overlay">
+                <div class="overlay-shadow"></div>
+                <h2 class="card-title overlay-text">PARIS</h2>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card overlay-container bg-dark text-white">
+            <img class="card-img" src="img/marseille.jpg" alt="Card image">
+            <div class="card-img-overlay">
+                <div class="overlay-shadow"></div>
+                <h2 class="card-title overlay-text">MARSEILLE</h2>
+            </div>
+            </div>
+            </div>
+        </div>
+
+    <!--JAVASCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    </body>
+</html>

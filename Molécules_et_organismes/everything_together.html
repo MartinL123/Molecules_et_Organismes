@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Every Pages added Together</title>
+
+    <!-- Link for bootstrap -->
+    <link rel="stylesheet" href="styles/bootstrap.css" class="css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="styles/custom.css" class="css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+</head>
+
+    <body style="background-color: beige;">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">EventBrite</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Acceuil <span class="sr-only">(current)</span></a>
+            </li>          
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Team <span class="sr-only">(current)</span></a>
+            </li>
+            <li><button type="button" class="btn btn-outline-primary">Créer un événement</button></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Connexion/S'inscrire</a>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Connexion</a>
+                <a class="dropdown-item" href="#">S'inscrire</a>                      
+            </li>
+            </ul>        
+        </div>
+        </nav>
+
+        <div class="container">
+        <div class="row mt-4">
+            <div class="col">
+            <small><a href="index.html">< Back to Menu</a></small>
+            <h1>Banners page</h1>
+            </div>
+        </div>
+        </div>
+
+        <div class="jumbotron jumbotron-home">
+        <div class="container">
+        <h1 class="display-3 text-light">Everything is possible with EventBrite !</h1>
+        <p class="lead text-light">You want to act, walk a dog, travel around the world. If yes, this is NOT the place for you. Keep browing but please use Google Chrome. </p>
+        <hr class="my-4">
+        <p class="text-light">Seriously, I am right ! Any browser is shit. Don't even concsider using those.</p>
+        <p class="lead text-light">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Don't trust me ?</a>
+        </p>
+        </div>
+        </div>
+
+        <div class="jumbotron jumbotron-events">
+        <div class="container">
+        <h1 class="display-4 text-light">This picture comes from a funeral... My funeral.</h1>
+        </div>
+        </div>
+
+        <div class="container">
+        <div class="row mt-4">
+            <div class="col">
+            <small><a href="index.html">< Back to Menu</a></small>
+            <h1>Cards page</h1><br/ >
+            </div>
+        </div>
+        </div>
+
+
+        <!-- EVENT CARDS -->
+        <div class="container">
+        <h2>Event cards</h2>
+        <div class="row"> 
+            <div class="col">
+            <div class="card">
+                <img style="height: 200px; width: 100%; display: block;" src="img/wine.jpg" alt="Card image"/>
+
+                <div class="card-body">
+                <h4 class="card-title">Wanna get drunk ?</h4>
+                <h6 class="card-subtitle mb-2 text-muted">21/08/2020 - Paris</h6>
+                <p class="card-text">Venez goûter au meilleur rhum arrangés de la région Parisienne. Si vous ressortez sans vous péter la gueule, vous gagnez une bouteille.</p>
+                <a href="#" class="card-link">See event</a>
+                </div>
+            </div>
+            </div>
+
+            <div class="col">
+            <div class="card">
+                <img style="height: 200px; width: 100%; display: block;" src="img/dj.jpg" alt="Card image">
+
+                <div class="card-body">
+                <h4 class="card-title">mémé aux platines </h4>
+                <h6 class="card-subtitle mb-2 text-muted">25/08/2020 - Lyon</h6>
+                <p class="card-text">Fuck le confinement ! Mémé TropSoin à fait son dernier tatouage et veux se préter au métier de DJ. Vous n'allez pas être déçus !</p>
+                <a href="#" class="card-link">See event</a>
+                </div>
+            </div>
+            </div>
+
+            <div class="col">
+            <div class="card">
+                <img style="height: 200px; width: 100%; display: block;" src="img/cheers.jpg" alt="Card image">
+
+                <div class="card-body">
+                <h4 class="card-title">Cocktail en térasse avec les copines</h4>
+                <h6 class="card-subtitle mb-2 text-muted">23/08/2020 - Marseille</h6>
+                <p class="card-text">Pauline à rassemblée toute ses BFF pour aller prendre un verre sur le port. Tu veux y aller ?</p>
+                <a href="#" class="card-link">See event</a>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- ATTENDEE CARDS -->
+        <div class="container mt-4">
+        <h2>Attendee cards</h2>
+        <div class="row"> 
+            <div class="col">
+            <div class="my-3 p-3 bg-white rounded box-shadow">
+                <h6 class="border-bottom border-gray pb-2 mb-0">Attendees list</h6>
+                <div class="media text-muted pt-3">
+                <img class="mr-2 rounded avatar-img" src="img/fat-tow.png">
+                <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                    <strong class="d-block text-gray-dark">Gérard Depardieu</strong>
+                    From Lyon
+                </p>
+                </div>
+                <div class="media text-muted pt-3">
+                <img class="mr-2 rounded avatar-img" src="img/guy.png">
+                <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                    <strong class="d-block text-gray-dark">Mémé TropSoin</strong>
+                    From Paris
+                </p>
+                </div>
+                <div class="media text-muted pt-3">
+                <img class="mr-2 rounded avatar-img" src="img/caro.png">
+                <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                    <strong class="d-block text-gray-dark">Pauline</strong>
+                    From Marseille
+                </p>
+                </div>
+                <small class="d-block text-right mt-3">
+                <a href="#">All attendees</a>
+                </small>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- CITY CARDS -->
+        <div class="container mt-4">
+            <h2>City cards</h2>
+            <div class="row"> 
+                <div class="col">
+                <div class="card overlay-container bg-dark text-white">
+                <img class="card-img" src="img/lyon.jpg" alt="Card image">
+                <div class="card-img-overlay">
+                    <div class="overlay-shadow"></div>
+                    <h2 class="card-title overlay-text">LYON</h2>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card overlay-container bg-dark text-white">
+                <img class="card-img h200" src="img/paris.jpg" alt="Card image">
+                <div class="card-img-overlay">
+                <div class="overlay-shadow"></div>
+                <h2 class="card-title overlay-text">PARIS</h2>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card overlay-container bg-dark text-white">
+            <img class="card-img" src="img/marseille.jpg" alt="Card image">
+            <div class="card-img-overlay">
+                <div class="overlay-shadow"></div>
+                <h2 class="card-title overlay-text">MARSEILLE</h2>
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col">
+                <small><a href="index.html">< Back to Menu</a></small>
+                <h1>Element presentation page</h1>
+                </div>
+            </div>
+            </div>
+
+            <div class="container mt-4">
+            <div class="row site-element align-items-center">
+            <div class="col col-8">
+                <img src="img/wine.jpg" alt="">
+            </div>
+            <div class="col col-4">
+                <h4>Title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga placeat cum enim distinctio fugit, obcaecati, tempore nostrum iusto aut molestiae, doloribus aliquid optio est velit eos neque hic, maiores mollitia.</p>
+                <button type="button" class="btn btn-primary">Learn more</button>
+            </div>
+            </div>
+
+            <div class="row site-element align-items-center mt-5">
+            <div class="col col-8">
+                <img src="img/cheers.jpg" alt="">
+            </div>
+            <div class="col col-4 order-first">
+                <h4>Title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga placeat cum enim distinctio fugit, obcaecati, tempore nostrum iusto aut molestiae, doloribus aliquid optio est velit eos neque hic, maiores mollitia.</p>
+                <button type="button" class="btn btn-primary">Learn more</button>
+            </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row mt-4">
+            <div class="col">
+                <small><a href="index.html">< Back to Menu</a></small>
+                <h1>Last events page</h1>
+            </div>
+            </div>
+        </div>
+        
+        <div class="container">
+        
+            <!-- PARIS -->
+            <div class="row">
+            <div class="col">
+                <h3 class="mt-3">Paris</h3>
+                <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Open-bar<br>
+                    au Trabendo</h5>
+                    <small>4 hours ago</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus.</p>
+                    <small>Organized by Joe Mekouyenski</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Hackathon</h5>
+                    <small class="text-muted">8 hours ago</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                    <small class="text-muted">Organized by Arnaud Nymous</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Iron man</h5>
+                    <small class="text-muted">1 day ago</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus.</p>
+                    <small class="text-muted">Organized by Jean-michel Courvite</small>
+                </a>
+                </div>     
+            </div>
+                
+                <!-- LYON -->
+                <div class="col">
+                <h3 class="mt-3">Lyon</h3>
+                <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Open-bar <br>
+                    au Ninkasi</h5>
+                    <small>1 hour ago</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus.</p>
+                    <small>Organized by Joe Mekouyenski</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Nuits sonores</h5>
+                    <small class="text-muted">12 hours ago</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                    <small class="text-muted">Organized by Arnaud Nymous</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Visite de Lyon</h5>
+                    <small class="text-muted">2 days ago</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus.</p>
+                    <small class="text-muted">Organized by Jean-michel Courvite</small>
+                </a>
+                </div>     
+            </div>
+        
+                <!-- Marseille -->
+                <div class="col">
+                <h3 class="mt-3">Marseille</h3>
+                <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Concert @<br> friche belle de mai</h5>
+                    <small>4 hours ago</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus.</p>
+                    <small>Organized by Joe Mekouyenski</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Marsatac</h5>
+                    <small class="text-muted">14 hours ago</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                    <small class="text-muted">Organized by Arnaud Nymous</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Visite de Marseille</h5>
+                    <small class="text-muted">21 hours ago</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus.</p>
+                    <small class="text-muted">Organized by Jean-michel Courvite</small>
+                </a>
+                </div>     
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col">
+            <small><a href="index.html">< Back to Menu</a></small>
+            <h1>Comments page</h1>
+            </div>
+        </div>
+        </div>
+
+        <!-- Comments -->
+        <div class="comments container mt-3">
+        <div class="row"> 
+            <div class="col">
+            <div class="mt-3 bg-white rounded box-shadow">
+                <h6 class="border-bottom border-gray pb-2 mb-0">Comments</h6>
+                <div class="media text-muted pt-3">
+                <img class="mr-2 rounded avatar-img" src="img/caro.png">
+                <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                    <strong class="d-block text-gray-dark">@Caro <small class="text-muted">Today, at 16:33</small></strong>
+                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                </p>
+                </div>
+                <div class="media text-muted pt-3">
+                <img class="mr-2 rounded avatar-img" src="img/guy.png">
+                <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                    <strong class="d-block text-gray-dark">@Guy <small class="text-muted">Today, at 14:33</small></strong>
+                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                </p>
+                </div>
+                <div class="media text-muted pt-3">
+                <img class="mr-2 rounded avatar-img" src="img/fat-tow.png" >
+                <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                    <strong class="d-block text-gray-dark">@Tow <small class="text-muted">Today, at 12:33</small></strong>
+                    Donec id elit I non mi porta gravida at eget metus. LOVE, tellus ac cursus commodo, tortor  condimentum CATS , ut fermentum massa justo sit amet risus.
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col">
+            <div class="bg-white rounded box-shadow">
+                <h6>Add a comment</h6>
+                <fieldset>
+                <div class="form-group">
+                    <label for="exampleTextarea">Give us your thoughts</label>
+                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                </fieldset>
+                <button type="submit" class="btn btn-primary">Comment</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col">
+                <small><a href="index.html">< Back to Menu</a></small>
+                <h1>Form page</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col col-6 mx-auto">
+                
+                <form>
+                    <fieldset>
+                            <legend>Default form style</legend>
+                            <!-- Email -->
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <!-- Password -->
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <!-- Select -->
+                            <div class="form-group">
+                                    <select class="custom-select">
+                                        <option selected="">Choose your city</option>
+                                        <option value="1">Bordeaux</option>
+                                        <option value="2">Lille</option>
+                                        <option value="3">Lyon</option>
+                                        <option value="4">Marseille</option>
+                                        <option value="5">Paris</option>
+                                    </select>
+                                </div>
+                            <!-- Text_area -->
+                            <div class="form-group">
+                                <label for="exampleTextarea">Tell us about yourself</label>
+                                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                            </div>
+                            <!-- Profile picture -->
+                                                        <legend>Update your profile picture</legend>
+
+                            <div class="form-group">
+                                    <div class="input-group mb-3">
+                                    <div class="custom-file">
+
+                                        <input type="file" class="custom-file-input" id="inputGroupFile02">
+                                        <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+                                    </div>
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="">Upload</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Radio buttons -->
+                        <fieldset>
+                            <legend>Do you like me?</legend>
+                            <div class="form-group">
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked="">
+                                    <label class="custom-control-label" for="customRadio1">Yes</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadio2">Sure</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadio3">Of course</label>
+                                </div>
+                            </div>
+                            <legend>How did you hear about me?</legend>
+                            <div class="form-group">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1" checked="">
+                                    <label class="custom-control-label" for="customCheck1">Social media</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                    <label class="custom-control-label" for="customCheck2">TV</label>
+                                </div>
+                            </div>
+
+                        </fieldset>
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary">Submit</button>
+
+                    </fieldset>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col">
+            <small><a href="index.html">< Back to Menu</a></small>
+            <h1>Footer page</h1>
+            </div>
+        </div>
+        </div>
+
+        <footer class="footer py-3 bg-dark text-light mt-4">
+        <div class="container">
+            <div class="row">
+            <div class="col col-8">
+                <h6 class="text-light">About</h6>
+                <p>EventBrite is the best site you have ever seen. Donald Trump said it so it's true...<br>
+                Have a nice day!</p>
+            </div>
+
+            <div class="col col-4">
+                <h6 class="text-light">Follow us</h6>
+                <p>
+                <i class="fab fa-twitter"></i> <i class="fab fa-facebook-square"></i> <i class="fab fa-instagram"></i>
+                </p>
+            </div>
+            </div>
+        </div>
+        </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
